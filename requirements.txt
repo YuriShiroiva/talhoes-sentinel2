@@ -1,0 +1,31 @@
+# Versões testadas no projeto (ver docs/). Instale o PyTorch antes, com a build da sua GPU:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+torch>=2.2
+torchvision>=0.17
+segmentation-models-pytorch==0.5.0
+timm==1.0.27
+albumentations==2.0.8
+
+# Geoespacial
+rasterio==1.5.0
+xarray==2026.4.0
+netCDF4==1.7.4
+h5netcdf==1.8.1
+shapely==2.1.2
+pyproj==3.7.2
+geopandas==1.1.3
+
+# Ciência de dados e visualização
+numpy==2.4.3
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+scikit-image
+matplotlib==3.10.9
+opencv-python-headless==4.13.0.92
+pillow==12.1.1
+tqdm==4.67.3
+requests==2.33.1
+
+# Dataset AI4Boundaries
+ai4boundaries @ git+https://github.com/waldnerf/ai4boundaries@defd23b2537f6d3d54fb97c1cc57f63d904ebced

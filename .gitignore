@@ -1,0 +1,33 @@
+# Dados e saídas (grandes demais para o Git — baixe/gere localmente)
+data/
+outputs/
+fields/
+manual_runner_logs/
+sample_sentinel2_for_local_test/
+
+# Pesos de modelo, rasters e pacotes
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.nc
+*.tif
+*.tiff
+
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+dist/
+.env
+
+# Ferramentas locais
+.claude/
+.codex/
+.vscode/
+.idea/
+*.log
